@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="title">
+      <h2 class="Welcome">Welcome to the space calculator</h2>
+      <h3 class="intro">
+        Ever wondered what your weight is on different planets? <br />
+        Look no further, scroll down and check it out!
+      </h3>
+      <span></span>
+    </div>
+    <div class="planets">
+      <form>
+        Enter your weight on earth (kg): <input type="number" id="value1" />
+        <button type="button" onclick="calc()">Calculate</button>
+        <button type="button" onclick="resetCalc()">Reset</button>
+      </form>
+
+      <div class="container">
+        <div class="cards">
+          <img src="./img/Sun.jpg" alt="Picture of the sun in the space" />
+          <h3>The Sun</h3>
+          <h4>Your weight is:</h4>
+          <h4 id="weight-sun">0</h4>
+        </div>
+        <div class="cards">
+          <img src="./img/Mercury.jpg" alt="Picture of mercury in space" />
+          <h3>Mercury</h3>
+          <h4>Your weight is:</h4>
+          <h4 id="weight-mercury">0</h4>
+        </div>
+        <div class="cards">
+          <img src="./img/Venus.jpg" alt="Picture of Venus in space" />
+          <h3>Venus</h3>
+          <h4>Your weight is:</h4>
+          <h4 id="weight-venus">0</h4>
+        </div>
+        <div class="cards">
+          <img src="./img/Earth.jpg" alt="Picture of Earth from space" />
+          <h3>Earth</h3>
+          <h4>Your weight is:</h4>
+          <h4 id="weight-earth">0</h4>
+        </div>
+        <div class="cards">
+          <img src="./img/Moon.jpg" alt="Picutre of the Moon from space" />
+          <h3>The Moon</h3>
+          <h4>Your weight is:</h4>
+          <h4 id="weight-moon">0</h4>
+        </div>
+        <div class="cards">
+          <img src="./img/Mars.jpg" alt="Picture of Mars from space" />
+          <h3>Mars</h3>
+          <h4>Your weight is:</h4>
+          <h4 id="weight-mars">0</h4>
+        </div>
+        <div class="cards">
+          <img src="./img/Jupiter.jpg" alt="Picutre of Jupiter from space" />
+          <h3>Jupiter</h3>
+          <h4>Your weight is:</h4>
+          <h4 id="weight-jupiter">0</h4>
+        </div>
+        <div class="cards">
+          <img src="./img/Saturn.jpg" alt="Picture of Saturn from space" />
+          <h3>Saturn</h3>
+          <h4>Your weight is:</h4>
+          <h4 id="weight-saturn">0</h4>
+        </div>
+        <div class="cards">
+          <img src="img/Uranus.jpg" alt="Picture of Uranus from space" />
+          <h3>Uranus</h3>
+          <h4>Your weight is:</h4>
+          <h4 id="weight-uranus">0</h4>
+        </div>
+        <div class="cards">
+          <img src="img/Neptune.jpg" alt="Picture of Neuptune from space" />
+          <h3>Neptune</h3>
+          <h4>Your weight is:</h4>
+          <h4 id="weight-neptune">0</h4>
+        </div>
+        <div class="cards">
+          <img src="img/Pluto.jpg" alt="Picture of Pluto from space" />
+          <h3>Pluto</h3>
+          <h4>Your weight is:</h4>
+          <h4 id="weight-pluto">0</h4>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="main.js" defer></script>
+</html>
